@@ -23,13 +23,13 @@ For this project to run, you would need to install below 3 dependencies on your 
         i. Code reuse
         ii. Easy to read & maintenance of code
 
-1. Created Pages Package :
+1. Created Pages Package [test/java/pages] : 
    1. BasePage: Use to init all pages locator
    2. HomePage : All locator from amazon home page with browse intraction with in that page 
    3. Television Page : All locator in television page with user action with in that page 
    4. ProductPage : locator in product page with user action in that page
     
-2. TestScripts Package :
+2. TestScripts Package [test/java/TestScripts] : All tests for project
    1. BaseTest  : Getting webdriver instance and performing common browser  action so we can reuse across diffrent test. 
    2. VerifyProduct : Test Scripts for verify product "About this Item" section
 
