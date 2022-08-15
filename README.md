@@ -19,18 +19,20 @@ For this project to run, you would need to install below 3 dependencies on your 
 > will not run. Also, do remember to set the correct JDK settings in your IDE.
 
 ## Getting Started
-    Have used POM (Page Object Design Patter ) So we can bind locator and method in the same class Using page factor class
-    Created Pages Package :
-    BasePage: Use to init all pages locator 	
-    HomePage : All locator from amazon home page with browse intraction with in that page
-    Television Page : All locator in television page with user action with in that page
-    ProductPage : locator in product page with user action in that page
+    Have used POM (Page Object Design Patter ) So we can bind locator and method in the same class Using page factor class using this we are achivinf below points
+        i. Code reuse
+        ii. Easy to read & maintenance of code
+
+1. Created Pages Package :
+   1. BasePage: Use to init all pages locator
+   2. HomePage : All locator from amazon home page with browse intraction with in that page 
+   3. Television Page : All locator in television page with user action with in that page 
+   4. ProductPage : locator in product page with user action in that page
     
-    TestScripts Package :
-    BaseTest  : Getting webdriver instnace and performing common browser  action so we can reuse across diffrent test.
-    VerifyProduct : Test Scripts for verify product "About this Item" section
+2. TestScripts Package :
+   1. BaseTest  : Getting webdriver instance and performing common browser  action so we can reuse across diffrent test. 
+   2. VerifyProduct : Test Scripts for verify product "About this Item" section
 
-
-
+    
 > Run Code : mvn test 
 
