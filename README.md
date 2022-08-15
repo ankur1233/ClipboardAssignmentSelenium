@@ -19,10 +19,18 @@ For this project to run, you would need to install below 3 dependencies on your 
 > will not run. Also, do remember to set the correct JDK settings in your IDE.
 
 ## Getting Started
+    Have used POM (Page Object Design Patter ) So we can bind locator and method in the same class Using page factor class
+    Created Pages Package :
+    BasePage: Use to init all pages locator 	
+    HomePage : All locator from amazon home page with browse intraction with in that page
+    Television Page : All locator in television page with user action with in that page
+    ProductPage : locator in product page with user action in that page
+    
+    TestScripts Package :
+    BaseTest  : Getting webdriver instnace and performing common browser  action so we can reuse across diffrent test.
+    VerifyProduct : Test Scripts for verify product "About this Item" section
 
-For easiest way to getting started, extract this project and open it from IntelliJ.
-> Then Do a dry run on test in : test -> java -> TestSandbox class and see if your setup is correct.  
 
-Tip: Do remember to update this readme file for anything else that you think needs updating here!
 
-## Success
+> Run Code : mvn test 
+
